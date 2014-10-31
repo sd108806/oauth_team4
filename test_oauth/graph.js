@@ -13,7 +13,10 @@ document.script;
 
 document.write("<input type='button' name='aa' id='btn1' value='home' />");
 document.getElementById("btn1").onclick=function(){
-alert("这里是单击事件");
+//alert("这里是单击事件");
+
+window.location.href="index.html"  ;
+//history.go(-1);
 }
 
 
